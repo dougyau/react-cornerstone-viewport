@@ -1,10 +1,17 @@
 {
-  "name": "react-cornerstone-viewport",
+  "name": "@dougyau/react-cornerstone-viewport",
   "version": "0.2.2",
   "description": "Cornerstone medical image viewport component for React",
   "author": "Cornerstone Contributors",
   "license": "MIT",
-  "repository": "cornerstonejs/react-cornerstone-viewport",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougyau/react-cornerstone-viewport.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "dist/index.js",
   "browser": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -23,10 +30,10 @@
     "prepublishOnly": "npm run build && npm run build:release"
   },
   "peerDependencies": {
-    "cornerstone-core": "^2.6.0",
+    "@dougyau/cornerstone-core": "^2.6.0",
     "cornerstone-math": "^0.1.9",
     "cornerstone-tools": "^6.0.1",
-    "cornerstone-wado-image-loader": "^4.0.4",
+    "@dougyau/cornerstone-wado-image-loader": "^4.0.4",
     "dicom-parser": "^1.8.8",
     "hammerjs": "^2.0.8",
     "react": "^17.0.2",
