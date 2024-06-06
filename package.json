@@ -1,6 +1,6 @@
 {
   "name": "@dougyau/react-cornerstone-viewport",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Cornerstone medical image viewport component for React",
   "author": "Cornerstone Contributors",
   "license": "MIT",
@@ -30,10 +30,10 @@
     "prepublishOnly": "npm run build && npm run build:release"
   },
   "peerDependencies": {
-    "@dougyau/cornerstone-core": "^2.6.0",
+    "cornerstone-core": "npm:@dougyau/cornerstone-core2.6.1",
     "cornerstone-math": "^0.1.9",
     "cornerstone-tools": "^6.0.1",
-    "@dougyau/cornerstone-wado-image-loader": "^4.0.4",
+    "cornerstone-wado-image-loader": "npm:@dougyau/cornerstone-wado-image-loader@^4.0.4",
     "dicom-parser": "^1.8.8",
     "hammerjs": "^2.0.8",
     "react": "^17.0.2",
@@ -56,10 +56,10 @@
     "babel-eslint": "10.1.0",
     "babel-loader": "^8.2.2",
     "commitizen": "4.2.x",
-    "cornerstone-core": "^2.6.0",
+    "cornerstone-core": "git+ssh://git@github.com:dougyau/cornerstone.git#dicomserver",
     "cornerstone-math": "^0.1.9",
     "cornerstone-tools": "^6.0.1",
-    "cornerstone-wado-image-loader": "^4.0.4",
+    "cornerstone-wado-image-loader": "npm:@dougyau/cornerstone-wado-image-loader@^4.0.4",
     "cross-env": "^7.0.3",
     "css-loader": "^6.2.0",
     "dicom-parser": "^1.8.8",
