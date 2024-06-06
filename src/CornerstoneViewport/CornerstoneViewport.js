@@ -174,7 +174,6 @@ class CornerstoneViewport extends Component {
     this._bindExternalEventListeners('element');
 
     // Only after `uuid` is set for enabledElement
-    console.log(cornerstone);
     this._setupLoadHandlers();
 
     try {
